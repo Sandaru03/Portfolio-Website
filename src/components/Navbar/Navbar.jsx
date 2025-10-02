@@ -28,8 +28,8 @@ export const Navbar = () => {
     { id: "about", label: "About" },
     { id: "skills", label: "Skills" },
     { id: "work", label: "Works" },
-    { id: "contact", label: "Contact" },
-    { id: "education", label: "Education" }
+    { id: "education", label: "Education" },
+    { id: "contact", label: "Contact" }
   ];
 
   return (

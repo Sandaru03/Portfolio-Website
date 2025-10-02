@@ -62,7 +62,7 @@ export const About = () => {
         {/* Right Side */}
         <div className='md:w-1/2 flex justify-center md:justify-end mt-[-2rem]'>
           <Tilt 
-            className='w-40 h-40 sm:w-52 sm:h-52 md:w-80 md:h-80 border-4 border-purple-700 rounded-full'
+            className='w-48 h-48 sm:w-52 sm:h-56 md:w-96 md:h-96 border-4 border-purple-700 rounded-full'
             tiltMaxAngleX={20}
             tiltMaxAngleY={20}
             perspective={1000}
