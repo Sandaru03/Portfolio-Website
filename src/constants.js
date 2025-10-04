@@ -26,15 +26,15 @@ import vercelLogo from './assets/tech_logo/vercel.png';
 // import newtonschoolLogo from './assets/company_logo/newtonschool_logo.png';
 
 // // Education Section Logo's
-// import glaLogo from './assets/education_logo/gla_logo.png';
-// import bsaLogo from './assets/education_logo/bsa_logo.png';
-// import vpsLogo from './assets/education_logo/vps_logo.png';
+import sliitcityuni from './assets/education_logo/CityUni.png';
+import uk from './assets/education_logo/UK.png';
+import skyrek from './assets/education_logo/skyrek.png';
 
 // // Project Section Logo's
-// import githubdetLogo from './assets/work_logo/github_det.png';
-// import csprepLogo from './assets/work_logo/cs_prep.png';
-// import movierecLogo from './assets/work_logo/movie_rec.png';
-// import taskremLogo from './assets/work_logo/task_rem.png';
+import microcctvLogo from './assets/work_logo/CCTV_Project.png';
+import portfolio from './assets/work_logo/portfolio.png';
+import clothingShop from './assets/work_logo/Clothing_Shop.png';
+import moodle from './assets/work_logo/moodle.png';
 // import npmLogo from './assets/work_logo/npm.png';
 // import webverLogo from './assets/work_logo/web_dig.png';
 // import cmLogo from './assets/work_logo/cm.png';
@@ -141,134 +141,103 @@ export const SkillsInfo = [
 //     },
 //   ];
   
-//   export const education = [
-//     {
-//       id: 0,
-//       img: glaLogo,
-//       school: "GLA University, Mathura",
-//       date: "Sept 2022 - July 2024",
-//       grade: "7.81 CGPA",
-//       desc: "I have completed my Master's degree (MCA) in Computer Applications from GLA University, Mathura. During my time at GLA, I gained a strong foundation in programming, software development, and computer science principles. I have studied courses such as Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Web Development, and Software Engineering. I actively participated in various workshops and technical events, which enhanced my skills and knowledge. My experience at GLA University has been instrumental in shaping my technical abilities and professional growth.",
-//       degree: "Master of Computer Applications - MCA",
-//     },
-//     {
-//       id: 1,
-//       img: bsaLogo,
-//       school: "BSA College, Mathura",
-//       date: "Sept 2018 - Aug 2021",
-//       grade: "73.2%",
-//       desc: "I completed my Bachelor's degree in Computer Science (B.Sc.) from BSA College, Mathura. Throughout my studies, I was immersed in a variety of subjects that deepened my understanding of computing and technology. From exploring Data Structures and Algorithms to diving into Web Development and Database Management Systems, I gained practical insights into the world of software development. My time at BSA College allowed me to work on projects that applied theoretical concepts to real-world problems.",
-//       degree: "Bachelor of Science - BSC (Computer Science)",
-//     },
-//     {
-//       id: 2,
-//       img: vpsLogo,
-//       school: "Vatsalya Public School Govardhan, Mathura",
-//       date: "Apr 2017 - March 2018",
-//       grade: "78%",
-//       desc: "I completed my class 12 education from Vatsalya Public School, Govardhan, under the CBSE board, where I studied Physics, Chemistry, and Mathematics (PCM) with Computer Science.",
-//       degree: "CBSE(XII) - PCM with Computer Science",
-//     },
-//     {
-//       id: 3,
-//       img: vpsLogo,
-//       school: "Vatsalya Public School Govardhan, Mathura",
-//       date: "Apr 2015 - March 2016",
-//       grade: "87.5%",
-//       desc: "I completed my class 10 education from Vatsalya Public School, Govardhan, under the CBSE board, where I studied Science with Computer.",
-//       degree: "CBSE(X), Science with Computer Application",
-//     },
-//   ];
+  export const education = [
+    {
+      id: 0,
+      img: sliitcityuni,
+      school: "SLIIT City University, Sri Lanka",
+      date: "2023-2025",
+      // grade: "7.81 CGPA",
+      desc: "I have completed my BSc (Hons) in Computer Science and Software Engineering from SLIIT City University. Throughout my degree, I developed a strong understanding of computer science fundamentals and modern software engineering practices. I studied core subjects such as Data Structures and Algorithms, Object-Oriented Programming, Database Systems, Computer Networks, Web Technologies, Mobile Application Development, and Software Project Management. In addition, I gained hands-on experience through practical assignments, group projects, and real-world case studies, which improved my problem-solving, teamwork, and coding skills. My academic journey at SLIIT has significantly contributed to enhancing both my technical expertise and professional growth.",
+      degree: "Bsc (Hons) Computer Science and Software Engineering",
+    },
+    {
+      id: 1,
+      img: uk,
+      school: "University Of Bedfordshire, UK",
+      date: "2025-2026",
+      // grade: "73.2%",
+      desc: "I am currently pursuing my BSc (Hons) in Computer Science and Software Engineering at the University of Bedfordshire, UK, and I am in my third year of study. This program has provided me with in-depth knowledge of computer science principles and advanced software engineering methodologies. I have studied modules such as Software Development, Web Engineering, Database Management, Computer Networks, Artificial Intelligence, and Project Management. The course emphasizes both theoretical learning and practical application, allowing me to strengthen my coding, analytical, and problem-solving skills. Being part of an international academic environment has also enhanced my adaptability, communication, and teamwork abilities, preparing me for a successful career in the tech industry.",
+      degree: "Bsc (Hons) Computer Science and Software Engineering",
+    },
+    {
+      id: 2,
+      img: skyrek,
+      school: "SkyRek Academy, Sri Lanka",
+      date: "2025",
+      // grade: "78%",
+      desc: "I have completed a Full Stack Web Development course (MERN Stack) at SkyRek Academy, where I gained practical experience in MongoDB, Express.js, React.js, Node.js, and version control using Git and GitHub. This course helped me build and deploy full-stack web applications efficiently.",
+      degree: "Full Stack Web Development Course",
+    },
+  ];
   
-//   export const projects = [
-//     {
-//       id: 0,
-//       title: "GitHub Profile Detective",
-//       description:
-//         "A powerful and user-friendly React.js application designed to uncover and showcase detailed GitHub profile information. Simply enter a GitHub username, and the app fetches comprehensive data, including profile stats, repositories, followers, and contributions. The intuitive interface ensures a seamless experience, making it a must-visit tool for developers and recruiters.",
-//       image: githubdetLogo,
-//       tags: ["HTML", "CSS", "JavaScript", "React JS", "API"],
-//       github: "https://github.com/codingmastr/GitHub-Profile-Search-App-Using-React-JS",
-//       webapp: "https://githubprofiledetective.netlify.app/",
-//     },
-//     {
-//       id: 1,
-//       title: "CS Prep",
-//       description:
-//         "A full-stack quiz-based platform designed for GATE/UGC NET students to practice previous year questions and create customized tests. The platform offers comprehensive profile stats and detailed results, helping students track and improve their preparation journey effectively.",
-//       image: csprepLogo,
-//       tags: ["React JS", "Node.js", "MongoDB", "Express", "HTML", "CSS", "JavaScript"],
-//       github: "https://github.com/codingmastr/CSPrep",
-//       webapp: "https://csprep.netlify.app/",
-//     },
-//     {
-//       id: 2,
-//       title: "Movie Recommendation App",
-//       description:
-//         "A React-based web application that provides movie recommendations based on different criteria, such as genres, user preferences, and popular trends. The intuitive design and smooth experience make it a go-to app for movie enthusiasts.",
-//       image: movierecLogo,
-//       tags: ["React JS", "API", "HTML", "CSS", "JavaScript"],
-//       github: "https://github.com/codingmastr/Movie-Recommendation-App",
-//       webapp: "https://movie-recommendation-app-jet.vercel.app/",
-//     },
-//     {
-//       id: 3,
-//       title: "Email Validator NPM Package",
-//       description:
-//         "An efficient and customizable NPM package for validating email addresses. Built using React.js and Node.js, it provides robust validation features to help developers ensure that email inputs meet required formats and standards.",
-//       image: npmLogo,
-//       tags: ["React JS", "Node.js", "NPM", "Validation"],
-//       github: "https://github.com/codingmastr/cmtk-email-validator",
-//       webapp: "https://www.npmjs.com/package/cmtk-email-validator",
-//     },
-//     {
-//       id: 4,
-//       title: "Task Reminder Chrome Extension Tool",
-//       description:
-//         "A productivity-boosting Chrome extension designed to help users manage and remember their daily tasks. Built using JavaScript, it offers a simple interface with reminders and task notifications to keep users on track.",
-//       image: taskremLogo,
-//       tags: ["JavaScript", "Chrome Extension", "HTML", "CSS"],
-//       github: "https://github.com/codingmastr/Task-Reminder-Tool",
-//       webapp: "chrome://extensions/?id=kngheeibjnnidhfoomkpnbeghackheci",
-//     },
-//     {
-//       id: 5,
-//       title: "Webverse Digital",
-//       description:
-//         "The official website for Webverse Digital, a creative digital marketing agency. Built using HTML, CSS, and JavaScript, it features visually appealing animations and a clean design to showcase the agency's services.",
-//       image: webverLogo,
-//       tags: ["HTML", "CSS", "JavaScript", "Framer Motion"],
-//       github: "https://github.com/codingmastr/Webverse-Digital",
-//       webapp: "https://webversedigital.com/",
-//     },
-//     {
-//       id: 6,
-//       title: "Coding Master",
-//       description:
-//         "An ed-tech platform where users can access tech and coding-related blogs, notes, interview questions, e-books, and premium content with payment integration. Built with full-stack technologies for a seamless learning experience.",
-//       image: cmLogo,
-//       tags: ["React JS", "Node.js", "MongoDB", "Express", "Payment Integration"],
-//       github: "https://codingmasterweb.in/",
-//       webapp: "https://codingmasterweb.in/",
-//     },
-//     {
-//       id: 7,
-//       title: "Image Search App",
-//       description:
-//         "A React.js-based image search application that allows users to search and download high-quality images from the web. Built using external APIs to ensure a vast library of results for various queries.",
-//       image: imagesearchLogo,
-//       tags: ["React JS", "API", "Search Feature", "CSS", "Javascript"],
-//       github: "https://github.com/codingmastr/Image-Search-App",
-//       webapp: "https://imagsearch.netlify.app/",
-//     },
-//     {
-//       id: 8,
-//       title: "Image Background Remover",
-//       description:
-//         "An efficient background removal app built with React.js and API integration. Users can upload any image, remove the background, and download the transparent version for further use.",
-//       image: removebgLogo,
-//       tags: ["React JS", "API", "Image Processing", "HTML", "CSS", "Javascript"],
-//       github: "https://github.com/codingmastr/Image-Background-Remover",
-//       webapp: "https://removeyourbg.netlify.app/",
-//     },
-//   ];  
+  export const projects = [
+    {
+      id: 0,
+      title: "Micro CCTV Shop Web Site",
+      description:
+        "Micro CCTV is a professional CCTV service platform developed using the MERN (MongoDB, Express, React, Node.js) stack. It offers live camera feeds, package booking, and a customer-friendly dashboard.",
+      image: microcctvLogo,
+      tags: ["Reactjs", "TailwindCSS", "Expressjs", "Nodejs", "Mongodb"],
+      github: "https://github.com/Sandaru03/MICRO-CCTV-PROJECT.git",
+      webapp: "https://www.microcctvsecuritysolutions.store/",
+    },
+    {
+      id: 1,
+      title: "Portfolio Website",
+      description:
+        "This portfolio website is designed with React.js and styled using Tailwind CSS, ensuring a fast, clean, and responsive user experience. It highlights personal skills, projects, and achievements with an intuitive interface, making it easy for visitors, clients, and recruiters to explore professional work.",
+      image: portfolio,
+      tags: ["Reactjs", "TailwindCSS"],
+      github: "https://github.com/Sandaru03/Portfolio-Website.git"
+      
+    },
+    {
+      id: 2,
+      title: "Novathread Clothing Shop Web Site",
+      description:
+        "Novathread is an elegant clothing shop website developed using HTML, CSS, PHP, and MySQL. It provides customers with a smooth shopping experience, featuring product browsing, cart management, and secure checkout. The platform combines simplicity with functionality to create a reliable e-commerce solution.",
+      image: clothingShop,
+      tags: ["HTML", "CSS", "PHP", "MySql", "HTML"]
+     
+    },
+    {
+      id: 3,
+      title: "SLIIT City Uni Moodle Recreation",
+      description:
+        "SLIIT City Uni Moodle Recreation is a UI/UX project designed in Figma to reimagine the university’s Moodle platform with a modern and user-friendly interface. The design focuses on simplicity, accessibility, and better navigation to enhance the student learning experience.",
+      image: moodle,
+      tags: ["Figma"]
+    },
+    // {
+    //   id: 4,
+    //   title: "Task Reminder Chrome Extension Tool",
+    //   description:
+    //     "A productivity-boosting Chrome extension designed to help users manage and remember their daily tasks. Built using JavaScript, it offers a simple interface with reminders and task notifications to keep users on track.",
+    //   image: taskremLogo,
+    //   tags: ["JavaScript", "Chrome Extension", "HTML", "CSS"],
+    //   github: "https://github.com/codingmastr/Task-Reminder-Tool",
+    //   webapp: "chrome://extensions/?id=kngheeibjnnidhfoomkpnbeghackheci",
+    // },
+    // {
+    //   id: 5,
+    //   title: "Webverse Digital",
+    //   description:
+    //     "The official website for Webverse Digital, a creative digital marketing agency. Built using HTML, CSS, and JavaScript, it features visually appealing animations and a clean design to showcase the agency's services.",
+    //   image: webverLogo,
+    //   tags: ["HTML", "CSS", "JavaScript", "Framer Motion"],
+    //   github: "https://github.com/codingmastr/Webverse-Digital",
+    //   webapp: "https://webversedigital.com/",
+    // },
+    // {
+    //   id: 6,
+    //   title: "Coding Master",
+    //   description:
+    //     "An ed-tech platform where users can access tech and coding-related blogs, notes, interview questions, e-books, and premium content with payment integration. Built with full-stack technologies for a seamless learning experience.",
+    //   image: cmLogo,
+    //   tags: ["React JS", "Node.js", "MongoDB", "Express", "Payment Integration"],
+    //   github: "https://codingmasterweb.in/",
+    //   webapp: "https://codingmasterweb.in/",
+    // },
+ 
+  ];  
