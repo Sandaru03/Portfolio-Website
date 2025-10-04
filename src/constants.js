@@ -198,7 +198,7 @@ export const SkillsInfo = [
       description:
         "Novathread is an elegant clothing shop website developed using HTML, CSS, PHP, and MySQL. It provides customers with a smooth shopping experience, featuring product browsing, cart management, and secure checkout. The platform combines simplicity with functionality to create a reliable e-commerce solution.",
       image: clothingShop,
-      tags: ["HTML", "CSS", "PHP", "MySql", "HTML"]
+      tags: ["HTML", "CSS", "PHP", "MySql"]
      
     },
     {
