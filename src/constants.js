@@ -189,7 +189,9 @@ export const SkillsInfo = [
         "This portfolio website is designed with React.js and styled using Tailwind CSS, ensuring a fast, clean, and responsive user experience. It highlights personal skills, projects, and achievements with an intuitive interface, making it easy for visitors, clients, and recruiters to explore professional work.",
       image: portfolio,
       tags: ["Reactjs", "TailwindCSS"],
-      github: "https://github.com/Sandaru03/Portfolio-Website.git"
+      github: "https://github.com/Sandaru03/Portfolio-Website.git",
+      webapp: "https://sandarudilshan.com/",
+
       
     },
     {
@@ -198,7 +200,8 @@ export const SkillsInfo = [
       description:
         "Novathread is an elegant clothing shop website developed using HTML, CSS, PHP, and MySQL. It provides customers with a smooth shopping experience, featuring product browsing, cart management, and secure checkout. The platform combines simplicity with functionality to create a reliable e-commerce solution.",
       image: clothingShop,
-      tags: ["HTML", "CSS", "PHP", "MySql"]
+      tags: ["HTML", "CSS", "PHP", "MySql"],
+      github: "https://github.com/Sandaru03/Novathread-Clothing-Website.git"
      
     },
     {
