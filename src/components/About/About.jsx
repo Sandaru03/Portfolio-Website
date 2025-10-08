@@ -121,11 +121,12 @@ export const About = () => {
               scale={1.05}
               gyroscope={true}
             >
-              <img 
-                src={ProfileImage} 
-                alt='Sandaru Dilshan'
-                className='w-full h-full rounded-full object-cover shadow-[0_0_40px_rgba(130,69,236,0.6)] hover:shadow-[0_0_60px_rgba(130,69,236,0.8)] transition-shadow duration-700'
-              />
+             <img 
+              src={ProfileImage} 
+              alt='Sandaru Dilshan'
+              className='w-full h-full rounded-full object-cover object-[center_35%] shadow-[0_0_40px_rgba(130,69,236,0.6)] hover:shadow-[0_0_60px_rgba(130,69,236,0.8)] transition-shadow duration-700'
+            />
+
             </Tilt>
           </motion.div>
         </motion.div>
