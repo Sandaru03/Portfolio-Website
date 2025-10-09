@@ -72,7 +72,7 @@ export const About = () => {
           </motion.p>
 
           <motion.a
-            href="https://drive.google.com/file/d/1QWc8XqugqC0EB9l4d4qwv075GYDqHcwH/view?usp=drive_link"
+            href="https://drive.google.com/file/d/1B2cVfVsV1ugQIe4I60hpoyzqWaUzD9AA/view?usp=drive_link"
             target='_blank'
             rel='noopener noreferrer'
             className='inline-block bg-[#8245ec] text-white px-6 py-3 rounded-full transform hover:scale-105 transition duration-300'

@@ -33,6 +33,7 @@ import skyrek from './assets/education_logo/skyrek.png';
 // // Project Section Logo's
 import microcctvLogo from './assets/work_logo/CCTV_Project.png';
 import portfolio from './assets/work_logo/portfolio.png';
+import ToDoList from './assets/work_logo/ToDoList.png';
 import clothingShop from './assets/work_logo/Clothing_Shop.png';
 import moodle from './assets/work_logo/moodle.png';
 // import npmLogo from './assets/work_logo/npm.png';
@@ -144,21 +145,21 @@ export const SkillsInfo = [
   export const education = [
     {
       id: 0,
-      img: sliitcityuni,
-      school: "SLIIT City University, Sri Lanka",
-      date: "2023-2025",
-      // grade: "7.81 CGPA",
-      desc: "I have completed my BSc (Hons) in Computer Science and Software Engineering from SLIIT City University. Throughout my degree, I developed a strong understanding of computer science fundamentals and modern software engineering practices. I studied core subjects such as Data Structures and Algorithms, Object-Oriented Programming, Database Systems, Computer Networks, Web Technologies, Mobile Application Development, and Software Project Management. In addition, I gained hands-on experience through practical assignments, group projects, and real-world case studies, which improved my problem-solving, teamwork, and coding skills. My academic journey at SLIIT has significantly contributed to enhancing both my technical expertise and professional growth.",
-      degree: "Bsc (Hons) Computer Science and Software Engineering",
-    },
-    {
-      id: 1,
       img: uk,
       school: "University Of Bedfordshire, UK",
       date: "2025-2026",
       // grade: "73.2%",
       desc: "I am currently pursuing my BSc (Hons) in Computer Science and Software Engineering at the University of Bedfordshire, UK, and I am in my third year of study. This program has provided me with in-depth knowledge of computer science principles and advanced software engineering methodologies. I have studied modules such as Software Development, Web Engineering, Database Management, Computer Networks, Artificial Intelligence, and Project Management. The course emphasizes both theoretical learning and practical application, allowing me to strengthen my coding, analytical, and problem-solving skills. Being part of an international academic environment has also enhanced my adaptability, communication, and teamwork abilities, preparing me for a successful career in the tech industry.",
       degree: "Bsc (Hons) Computer Science and Software Engineering",
+    },
+     {
+      id: 0,
+      img: sliitcityuni,
+      school: "SLIIT City University, Sri Lanka",
+      date: "2023-2025",
+      // grade: "7.81 CGPA",
+      desc: "I have completed my Higher Diploma in Information Technology from SLIIT City University. Throughout my diploma, I developed a strong understanding of computer science fundamentals and modern software engineering practices. I studied core subjects such as Data Structures and Algorithms, Object-Oriented Programming, Database Systems, Computer Networks, Web Technologies, Mobile Application Development, and Software Project Management. In addition, I gained hands-on experience through practical assignments, group projects, and real-world case studies, which improved my problem-solving, teamwork, and coding skills. My academic journey at SLIIT has significantly contributed to enhancing both my technical expertise and professional growth.",
+      degree: "Higher Diploma in Information Technology",
     },
     {
       id: 2,
@@ -196,6 +197,17 @@ export const SkillsInfo = [
     },
     {
       id: 2,
+      title: "ToDo List Web Application",
+      description:
+      "This ToDo List web application is built with React.js and styled with Bootstrap, offering a responsive and user-friendly interface. The backend uses Express.js, Node.js, and MongoDB, enabling users to efficiently create, update, and manage tasks with features like search and filtering.",       image: ToDoList,
+      tags: ["Reactjs", "Bootstrap", "Expressjs", "Nodejs", "Mongodb"],
+      github: "https://github.com/Sandaru03",
+      webapp: "https://to-do-list-frontend-weld-nine.vercel.app/",
+
+      
+    },
+    {
+      id: 3,
       title: "Novathread Clothing Shop Web Site",
       description:
         "Novathread is an elegant clothing shop website developed using HTML, CSS, PHP, and MySQL. It provides customers with a smooth shopping experience, featuring product browsing, cart management, and secure checkout. The platform combines simplicity with functionality to create a reliable e-commerce solution.",
@@ -205,7 +217,7 @@ export const SkillsInfo = [
      
     },
     {
-      id: 3,
+      id: 4,
       title: "SLIIT City Uni Moodle Recreation",
       description:
         "SLIIT City Uni Moodle Recreation is a UI/UX project designed in Figma to reimagine the university’s Moodle platform with a modern and user-friendly interface. The design focuses on simplicity, accessibility, and better navigation to enhance the student learning experience.",
@@ -244,3 +256,5 @@ export const SkillsInfo = [
     // },
  
   ];  
+
+
