@@ -36,6 +36,7 @@ import portfolio from './assets/work_logo/portfolio.png';
 import ToDoList from './assets/work_logo/ToDoList.png';
 import clothingShop from './assets/work_logo/Clothing_Shop.png';
 import moodle from './assets/work_logo/moodle.png';
+import resturant from './assets/work_logo/resturant.png';
 // import npmLogo from './assets/work_logo/npm.png';
 // import webverLogo from './assets/work_logo/web_dig.png';
 // import cmLogo from './assets/work_logo/cm.png';
@@ -216,8 +217,19 @@ export const SkillsInfo = [
       github: "https://github.com/Sandaru03/Novathread-Clothing-Website.git"
      
     },
+
     {
       id: 4,
+      title: "Lanka Flavors Restaurant Web Site",
+      description:
+        "Lanka Flavors is a restaurant website developed using PHP, CodeIgniter, HTML, and CSS. The website features an interactive menu, online ordering system, and a modern responsive design tailored for an enhanced customer experience.",
+      image: resturant,
+      tags: ["PHP", "CodeIgniter", "HTML", "CSS"],
+      github: "https://github.com/Sandaru03/Lanka-Flavors-Resturant-Website.git"
+    },
+
+    {
+      id: 5,
       title: "SLIIT City Uni Moodle Recreation",
       description:
         "SLIIT City Uni Moodle Recreation is a UI/UX project designed in Figma to reimagine the university’s Moodle platform with a modern and user-friendly interface. The design focuses on simplicity, accessibility, and better navigation to enhance the student learning experience.",
