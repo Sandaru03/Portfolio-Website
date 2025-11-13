@@ -31,7 +31,7 @@ import uk from './assets/education_logo/UK.png';
 import skyrek from './assets/education_logo/skyrek.png';
 
 // // Project Section Logo's
-import microcctvLogo from './assets/work_logo/CCTV_Project.png';
+import microcctvLogo from './assets/work_logo/MCCTV.png';
 import portfolio from './assets/work_logo/portfolio.png';
 import ToDoList from './assets/work_logo/ToDoList.png';
 import clothingShop from './assets/work_logo/Clothing_Shop.png';
