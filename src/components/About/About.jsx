@@ -49,7 +49,7 @@ export const About = () => {
             <span className="text-gray-300 mr-2">I am a</span>
             <span className="text-[#8245ec] underline decoration-wavy decoration-purple-500/50 underline-offset-8">
               <Typewriter
-                words={["Fullstack Developer", "UI/UX Designer", "Tech Enthusiast"]}
+                words={["Fullstack Developer", "UI/UX Designer"]}
                 loop={0}
                 cursor
                 cursorStyle="_"
