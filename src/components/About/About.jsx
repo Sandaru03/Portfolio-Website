@@ -4,7 +4,7 @@ import React from 'react';
 import { Typewriter } from "react-simple-typewriter";
 import Tilt from 'react-parallax-tilt';
 import { motion } from "framer-motion";
-import ProfileImage from '../../assets/profile.png';
+import ProfileImage from '../../assets/profile2.png';
 
 export const About = () => {
   return (

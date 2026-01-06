@@ -37,6 +37,9 @@ import ToDoList from './assets/work_logo/ToDoList.png';
 import clothingShop from './assets/work_logo/Clothing_Shop.png';
 import moodle from './assets/work_logo/moodle.png';
 import resturant from './assets/work_logo/resturant.png';
+import sdkLogo from './assets/work_logo/SDKSolutions.png';
+import sdkTravelsLogo from './assets/work_logo/sdktravells.png';
+import pfpLogo from './assets/work_logo/pfp.png';
 // import npmLogo from './assets/work_logo/npm.png';
 // import webverLogo from './assets/work_logo/web_dig.png';
 // import cmLogo from './assets/work_logo/cm.png';
@@ -184,8 +187,43 @@ export const SkillsInfo = [
       github: "https://github.com/Sandaru03/MICRO-CCTV-PROJECT.git",
       webapp: "https://www.microcctvsecuritysolutions.store/",
     },
-    {
+
+     {
       id: 1,
+      title: "SDK Solutions Company Site",
+      description:
+        "SDK Solutions is a professional software development company website built to showcase services such as web development, custom software solutions, UI/UX design, and digital solutions. The platform is developed using modern technologies with a clean, responsive, and business-focused design.",
+      image: sdkLogo,
+      tags: ["Reactjs", "TailwindCSS", "Nextjs"],
+      github: "https://github.com/Sandaru03/SDK-Solutions.git",
+      webapp: "https://www.sdksolutions.site",
+    },
+
+
+     {
+      id: 2,
+      title: "SDK Travells",
+      description:
+        "SDK Travels is a modern travel and tour booking platform developed using the MERN (MongoDB, Express, React, Node.js) stack. It allows users to explore Sri Lanka tour packages, accommodations, and make online bookings through a user-friendly dashboard.",
+      image: sdkTravelsLogo,
+      tags: ["Reactjs", "TailwindCSS", "Expressjs", "Nodejs", "Mongodb"],
+      github: "https://github.com/Sandaru03/SDK-travels-frontend.git",
+      webapp: "https://sdk-travels-frontend.vercel.app",
+    },
+
+     {
+      id: 3,
+      title: "PFP Frontend Developmnent",
+      description:
+        "PFP Frontend Development is a modern, responsive web interface built using React.js and Tailwind CSS. It focuses on clean UI design, smooth user experience, and performance optimization, delivering a visually appealing and user-friendly frontend solution suitable for marketing and business platforms.",
+      image: pfpLogo,
+      tags: ["Reactjs", "TailwindCSS"],
+      github: "https://github.com/Sandaru03/SDK-SOLUTION-PFP-FE-DEVELOPMENT.git",
+      webapp: "https://sdk-solution-pfp-frontend-developme.vercel.app",
+    },
+
+    {
+      id: 4,
       title: "Portfolio Website",
       description:
         "This portfolio website is designed with React.js and styled using Tailwind CSS, ensuring a fast, clean, and responsive user experience. It highlights personal skills, projects, and achievements with an intuitive interface, making it easy for visitors, clients, and recruiters to explore professional work.",
@@ -197,7 +235,7 @@ export const SkillsInfo = [
       
     },
     {
-      id: 2,
+      id: 5,
       title: "ToDo List Web Application",
       description:
       "This ToDo List web application is built with React.js and styled with Bootstrap, offering a responsive and user-friendly interface. The backend uses Express.js, Node.js, and MongoDB, enabling users to efficiently create, update, and manage tasks with features like search and filtering.",       image: ToDoList,
@@ -208,7 +246,7 @@ export const SkillsInfo = [
       
     },
     {
-      id: 3,
+      id: 6,
       title: "Novathread Clothing Shop Web Site",
       description:
         "Novathread is an elegant clothing shop website developed using HTML, CSS, PHP, and MySQL. It provides customers with a smooth shopping experience, featuring product browsing, cart management, and secure checkout. The platform combines simplicity with functionality to create a reliable e-commerce solution.",
@@ -219,7 +257,7 @@ export const SkillsInfo = [
     },
 
     {
-      id: 4,
+      id: 7,
       title: "Lanka Flavors Restaurant Web Site",
       description:
         "Lanka Flavors is a restaurant website developed using PHP, CodeIgniter, HTML, and CSS. The website features an interactive menu, online ordering system, and a modern responsive design tailored for an enhanced customer experience.",
@@ -229,7 +267,7 @@ export const SkillsInfo = [
     },
 
     {
-      id: 5,
+      id: 8 ,
       title: "SLIIT City Uni Moodle Recreation",
       description:
         "SLIIT City Uni Moodle Recreation is a UI/UX project designed in Figma to reimagine the university’s Moodle platform with a modern and user-friendly interface. The design focuses on simplicity, accessibility, and better navigation to enhance the student learning experience.",
