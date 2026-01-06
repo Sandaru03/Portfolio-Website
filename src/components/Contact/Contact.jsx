@@ -12,10 +12,10 @@ const Contact = () => {
 
     emailjs
       .sendForm(
-        "service_7filyag",  // Replace with your EmailJS Service ID
-        "template_rmq665i",  // Replace with your EmailJS Template ID
+        "service_7filyag", // Replace with your EmailJS Service ID
+        "template_rmq665i", // Replace with your EmailJS Template ID
         form.current,
-        "2NB532IWTKpG-6yo9"  // Replace with your EmailJS Public Key
+        "2NB532IWTKpG-6yo9" // Replace with your EmailJS Public Key
       )
       .then(
         () => {
@@ -49,13 +49,13 @@ const Contact = () => {
   return (
     <section
       id="contact"
-      className="flex flex-col items-center justify-center py-24 px-[12vw] md:px-[7vw] lg:px-[20vw]"
+      className="flex flex-col items-center justify-center py-24 px-[6vw] md:px-[7vw] lg:px-[20vw] relative overflow-hidden"
     >
       {/* Toast Container */}
       <ToastContainer />
 
-      {/* Section Title */}
-      <div className="text-center mb-16">
+      {/* --- Section Title (Original Style Kept) --- */}
+      <div className="text-center mb-16 relative z-10">
         <h2 className="text-4xl font-bold text-white">CONTACT</h2>
         <div className="w-32 h-1 bg-purple-500 mx-auto mt-4"></div>
         <p className="text-gray-400 mt-4 text-lg font-semibold">
@@ -63,50 +63,74 @@ const Contact = () => {
         </p>
       </div>
 
-      {/* Contact Form */}
-      <div className="mt-8 w-full max-w-md bg-[#0d081f] p-6 rounded-lg shadow-lg border border-gray-700">
-        <h3 className="text-xl font-semibold text-white text-center">
-          Connect With Me <span className="ml-1"></span>
-        </h3>
+      {/* --- Contact Form (New Modern Style) --- */}
+      <div className="relative w-full max-w-lg z-10">
+        {/* Background Glow Effect behind the form */}
+        <div className="absolute -inset-2 bg-gradient-to-r from-purple-600 to-pink-600 rounded-2xl blur-xl opacity-20"></div>
 
-        <form ref={form} onSubmit={sendEmail} className="mt-4 flex flex-col space-y-4">
-          <input
-            type="email"
-            name="user_email"
-            placeholder="Your Email"
-            required
-            className="w-full p-3 rounded-md bg-[#131025] text-white border border-gray-600 focus:outline-none focus:border-purple-500"
-          />
-          <input
-            type="text"
-            name="user_name"
-            placeholder="Your Name"
-            required
-            className="w-full p-3 rounded-md bg-[#131025] text-white border border-gray-600 focus:outline-none focus:border-purple-500"
-          />
-          <input
-            type="text"
-            name="subject"
-            placeholder="Subject"
-            required
-            className="w-full p-3 rounded-md bg-[#131025] text-white border border-gray-600 focus:outline-none focus:border-purple-500"
-          />
-          <textarea
-            name="message"
-            placeholder="Message"
-            rows="4"
-            required
-            className="w-full p-3 rounded-md bg-[#131025] text-white border border-gray-600 focus:outline-none focus:border-purple-500"
-          />
-          
-          {/* Send Button */}
-          <button
-            type="submit"
-            className="w-full bg-gradient-to-r from-purple-600 to-pink-500 py-3 text-white font-semibold rounded-md hover:opacity-90 transition"
+        <div className="relative bg-gray-900/80 backdrop-blur-xl p-8 rounded-2xl border border-white/10 shadow-2xl">
+          <h3 className="text-2xl font-bold text-white text-center mb-6">
+            Let's Connect 
+          </h3>
+
+          <form
+            ref={form}
+            onSubmit={sendEmail}
+            className="flex flex-col space-y-5"
           >
-            Send
-          </button>
-        </form>
+            {/* Email Input */}
+            <div className="group">
+              <input
+                type="email"
+                name="user_email"
+                placeholder="Your Email"
+                required
+                className="w-full p-4 rounded-xl bg-white/5 text-white border border-white/10 placeholder-gray-400 transition-all duration-300 focus:outline-none focus:border-purple-500 focus:ring-1 focus:ring-purple-500 focus:bg-white/10"
+              />
+            </div>
+
+            {/* Name Input */}
+            <div>
+              <input
+                type="text"
+                name="user_name"
+                placeholder="Your Name"
+                required
+                className="w-full p-4 rounded-xl bg-white/5 text-white border border-white/10 placeholder-gray-400 transition-all duration-300 focus:outline-none focus:border-purple-500 focus:ring-1 focus:ring-purple-500 focus:bg-white/10"
+              />
+            </div>
+
+            {/* Subject Input */}
+            <div>
+              <input
+                type="text"
+                name="subject"
+                placeholder="Subject"
+                required
+                className="w-full p-4 rounded-xl bg-white/5 text-white border border-white/10 placeholder-gray-400 transition-all duration-300 focus:outline-none focus:border-purple-500 focus:ring-1 focus:ring-purple-500 focus:bg-white/10"
+              />
+            </div>
+
+            {/* Message Input */}
+            <div>
+              <textarea
+                name="message"
+                placeholder="Message"
+                rows="5"
+                required
+                className="w-full p-4 rounded-xl bg-white/5 text-white border border-white/10 placeholder-gray-400 transition-all duration-300 focus:outline-none focus:border-purple-500 focus:ring-1 focus:ring-purple-500 focus:bg-white/10 resize-none"
+              />
+            </div>
+
+            {/* Send Button */}
+            <button
+              type="submit"
+              className="w-full bg-gradient-to-r from-purple-600 to-pink-500 py-4 text-white font-bold text-lg rounded-xl shadow-lg shadow-purple-500/30 hover:shadow-purple-500/50 hover:scale-[1.02] transition-all duration-300 active:scale-95 mt-2"
+            >
+              Send Message
+            </button>
+          </form>
+        </div>
       </div>
     </section>
   );
