@@ -31,21 +31,15 @@ import uk from './assets/education_logo/UK.png';
 import skyrek from './assets/education_logo/skyrek.png';
 
 // // Project Section Logo's
-import microcctvLogo from './assets/work_logo/MCCTV.png';
 import portfolio from './assets/work_logo/portfolio.png';
-import ToDoList from './assets/work_logo/ToDoList.png';
-import clothingShop from './assets/work_logo/Clothing_Shop.png';
-import moodle from './assets/work_logo/moodle.png';
-import resturant from './assets/work_logo/resturant.png';
-import sdkLogo from './assets/work_logo/SDKSolutions.png';
-import sdkTravelsLogo from './assets/work_logo/sdktravells.png';
 import pfpLogo from './assets/work_logo/pfp.png';
-// import npmLogo from './assets/work_logo/npm.png';
-// import webverLogo from './assets/work_logo/web_dig.png';
-// import cmLogo from './assets/work_logo/cm.png';
-// import imagesearchLogo from './assets/work_logo/image_search.png';
-// import removebgLogo from './assets/work_logo/remove_bg.png';
-
+import ToDoList from './assets/work_logo/ToDoList.png';
+import moodle from './assets/work_logo/moodle.png';
+import gripoLogo from './assets/work_logo/Gripo.png';
+import zandraLogo from './assets/work_logo/ZandraAdminDashboard.png';
+import sribuddhaLogo from './assets/work_logo/SriBuddharakkhithaPirivena.png';
+import dewceylonLogo from './assets/work_logo/DewCeylon.png';
+import anchorwayLogo from './assets/work_logo/Anchorway.png';
 
 export const SkillsInfo = [
   {
@@ -175,136 +169,94 @@ export const SkillsInfo = [
       degree: "Full Stack Web Development Course",
     },
   ];
-  
+
   export const projects = [
     {
       id: 0,
-      title: "Micro CCTV Shop Web Site",
+      title: "GRIPO.LK",
       description:
-        "Micro CCTV is a professional CCTV service platform developed using the MERN (MongoDB, Express, React, Node.js) stack. It offers live camera feeds, package booking, and a customer-friendly dashboard.",
-      image: microcctvLogo,
-      tags: ["Reactjs", "TailwindCSS", "Expressjs", "Nodejs", "Mongodb"],
-      github: "https://github.com/Sandaru03/MICRO-CCTV-PROJECT.git",
-      webapp: "https://www.microcctvsecuritysolutions.store/",
+        "Gripo.lk is a fully integrated e-commerce platform featuring seamless frontend and backend connectivity to provide a smooth and reliable shopping experience. It comes equipped with a comprehensive admin dashboard for the efficient management of products, orders, and user profiles. The platform ensures a complete and convenient online shopping journey by offering intuitive product browsing, secure user authentication, dynamic cart management, and a streamlined checkout process.",
+      image: gripoLogo,
+      tags: ["REACT", "TAILWINDCSS", "NODE.JS", "EXPRESS", "MYSQL"],
+      github: "https://github.com/Deshan-Chandima/Gripo_frontend.git",
+      webapp: "https://gripo.lk"
     },
-
-     {
+    {
       id: 1,
-      title: "SDK Solutions Company Site",
+      title: "ZANDRA TRAVELLERS ERP SYSTEM",
       description:
-        "SDK Solutions is a professional software development company website built to showcase services such as web development, custom software solutions, UI/UX design, and digital solutions. The platform is developed using modern technologies with a clean, responsive, and business-focused design.",
-      image: sdkLogo,
-      tags: ["Reactjs", "TailwindCSS", "Nextjs"],
-      github: "https://github.com/Sandaru03/SDK-Solutions.git",
-      webapp: "https://www.sdksolutions.site",
+        "A complete web-based Travel ERP Management System with frontend and backend integration, powered by a MySQL database. The system manages flight bookings, ticket and invoice generation, customer handling, and company income & expense tracking through a modern and responsive admin dashboard.",
+      image: zandraLogo,
+      tags: ["REACT", "TAILWINDCSS", "EXPRESS", "NODE.JS", "MYSQL"],
+      github: "https://github.com/Kavindu02/Zandra-Admin-Dashboard.git",
+      webapp: "https://admin.zandratravelers.com/"
     },
-
-
-     {
+    {
       id: 2,
-      title: "SDK Travells",
+      title: "SRI BUDDHARAKKHITHA PIRIVENA",
       description:
-        "SDK Travels is a modern travel and tour booking platform developed using the MERN (MongoDB, Express, React, Node.js) stack. It allows users to explore Sri Lanka tour packages, accommodations, and make online bookings through a user-friendly dashboard.",
-      image: sdkTravelsLogo,
-      tags: ["Reactjs", "TailwindCSS", "Expressjs", "Nodejs", "Mongodb"],
-      github: "https://github.com/Sandaru03/SDK-travels-frontend.git",
-      webapp: "https://sdk-travels-frontend.vercel.app",
+        "Sri Buddharakkhitha Pirivena is a dedicated educational and informational platform with a fully integrated frontend and backend system. It includes a comprehensive admin panel for efficiently managing staff members, articles, certificates, and past papers, along with a user-friendly public interface for students and visitors to access these resources. The platform focuses on a culturally resonant modern UI, smooth performance, and effective institutional management.",
+      image: sribuddhaLogo,
+      tags: ["REACT", "TAILWINDCSS", "EXPRESS", "NODE.JS", "MYSQL"],
+      github: "https://github.com/Sandaru03/Pirivena-Website.git",
+      webapp: "https://buddharakkhithapirivena.lk/"
     },
-
-     {
+    {
       id: 3,
+      title: "DEWCEYLON TRAVELS",
+      description:
+        "DewCeylon Travels is a travel booking platform with full frontend and backend integration, ensuring smooth and reliable performance. It includes a functional admin panel to manage bookings, users, and travel packages. The platform offers various destinations, competitive pricing, personalized packages, and a convenient taxi service for a complete travel experience.",
+      image: dewceylonLogo,
+      tags: ["REACT", "TAILWINDCSS", "EXPRESS", "NODE.JS", "MYSQL"],
+      github: "https://github.com/Sandaru03/Dew-Ceylon-Frontend.git",
+      webapp: "https://dewceylon.com/"
+    },
+    {
+      id: 4,
+      title: "ANCHORWAY SERVICES",
+      description:
+        "Anchorway Services is a professional cleaning services platform based in Australia. The system is designed to showcase residential and commercial cleaning services, allow customers to request quotes, book services online, and manage inquiries through a simple and clean dashboard experience.",
+      image: anchorwayLogo,
+      tags: ["REACT", "TAILWINDCSS"],
+      github: "https://github.com/Sandaru03/Anchorway-Service.git",
+      webapp: "https://www.anchorwayservices.com/"
+    },
+    {
+      id: 5,
       title: "PFP Frontend Developmnent",
       description:
         "PFP Frontend Development is a modern, responsive web interface built using React.js and Tailwind CSS. It focuses on clean UI design, smooth user experience, and performance optimization, delivering a visually appealing and user-friendly frontend solution suitable for marketing and business platforms.",
       image: pfpLogo,
       tags: ["Reactjs", "TailwindCSS"],
       github: "https://github.com/Sandaru03/SDK-SOLUTION-PFP-FE-DEVELOPMENT.git",
-      webapp: "https://sdk-solution-pfp-frontend-developme.vercel.app",
-    },
-
-    {
-      id: 4,
-      title: "Portfolio Website",
-      description:
-        "This portfolio website is designed with React.js and styled using Tailwind CSS, ensuring a fast, clean, and responsive user experience. It highlights personal skills, projects, and achievements with an intuitive interface, making it easy for visitors, clients, and recruiters to explore professional work.",
-      image: portfolio,
-      tags: ["Reactjs", "TailwindCSS"],
-      github: "https://github.com/Sandaru03/Portfolio-Website.git",
-      webapp: "https://sandarudilshan.com/",
-
-      
-    },
-    {
-      id: 5,
-      title: "ToDo List Web Application",
-      description:
-      "This ToDo List web application is built with React.js and styled with Bootstrap, offering a responsive and user-friendly interface. The backend uses Express.js, Node.js, and MongoDB, enabling users to efficiently create, update, and manage tasks with features like search and filtering.",       image: ToDoList,
-      tags: ["Reactjs", "Bootstrap", "Expressjs", "Nodejs", "Mongodb"],
-      github: "https://github.com/Sandaru03",
-      webapp: "https://to-do-list-frontend-weld-nine.vercel.app/",
-
-      
+      webapp: "https://sdk-solution-pfp-frontend-developme.vercel.app"
     },
     {
       id: 6,
-      title: "Novathread Clothing Shop Web Site",
+      title: "ToDo List Web Application",
       description:
-        "Novathread is an elegant clothing shop website developed using HTML, CSS, PHP, and MySQL. It provides customers with a smooth shopping experience, featuring product browsing, cart management, and secure checkout. The platform combines simplicity with functionality to create a reliable e-commerce solution.",
-      image: clothingShop,
-      tags: ["HTML", "CSS", "PHP", "MySql"],
-      github: "https://github.com/Sandaru03/Novathread-Clothing-Website.git"
-     
+      "This ToDo List web application is built with React.js and styled with Bootstrap, offering a responsive and user-friendly interface. The backend uses Express.js, Node.js, and MongoDB, enabling users to efficiently create, update, and manage tasks with features like search and filtering.",
+      image: ToDoList,
+      tags: ["Reactjs", "Bootstrap", "Expressjs", "Nodejs", "Mongodb"],
+      github: "https://github.com/Sandaru03",
+      webapp: "https://to-do-list-frontend-weld-nine.vercel.app/"
     },
-
     {
       id: 7,
-      title: "Lanka Flavors Restaurant Web Site",
-      description:
-        "Lanka Flavors is a restaurant website developed using PHP, CodeIgniter, HTML, and CSS. The website features an interactive menu, online ordering system, and a modern responsive design tailored for an enhanced customer experience.",
-      image: resturant,
-      tags: ["PHP", "CodeIgniter", "HTML", "CSS"],
-      github: "https://github.com/Sandaru03/Lanka-Flavors-Resturant-Website.git"
-    },
-
-    {
-      id: 8 ,
       title: "SLIIT City Uni Moodle Recreation",
       description:
         "SLIIT City Uni Moodle Recreation is a UI/UX project designed in Figma to reimagine the university’s Moodle platform with a modern and user-friendly interface. The design focuses on simplicity, accessibility, and better navigation to enhance the student learning experience.",
       image: moodle,
       tags: ["Figma"]
     },
-    // {
-    //   id: 4,
-    //   title: "Task Reminder Chrome Extension Tool",
-    //   description:
-    //     "A productivity-boosting Chrome extension designed to help users manage and remember their daily tasks. Built using JavaScript, it offers a simple interface with reminders and task notifications to keep users on track.",
-    //   image: taskremLogo,
-    //   tags: ["JavaScript", "Chrome Extension", "HTML", "CSS"],
-    //   github: "https://github.com/codingmastr/Task-Reminder-Tool",
-    //   webapp: "chrome://extensions/?id=kngheeibjnnidhfoomkpnbeghackheci",
-    // },
-    // {
-    //   id: 5,
-    //   title: "Webverse Digital",
-    //   description:
-    //     "The official website for Webverse Digital, a creative digital marketing agency. Built using HTML, CSS, and JavaScript, it features visually appealing animations and a clean design to showcase the agency's services.",
-    //   image: webverLogo,
-    //   tags: ["HTML", "CSS", "JavaScript", "Framer Motion"],
-    //   github: "https://github.com/codingmastr/Webverse-Digital",
-    //   webapp: "https://webversedigital.com/",
-    // },
-    // {
-    //   id: 6,
-    //   title: "Coding Master",
-    //   description:
-    //     "An ed-tech platform where users can access tech and coding-related blogs, notes, interview questions, e-books, and premium content with payment integration. Built with full-stack technologies for a seamless learning experience.",
-    //   image: cmLogo,
-    //   tags: ["React JS", "Node.js", "MongoDB", "Express", "Payment Integration"],
-    //   github: "https://codingmasterweb.in/",
-    //   webapp: "https://codingmasterweb.in/",
-    // },
- 
-  ];  
-
-
+    {
+      id: 8,
+      title: "Portfolio Website",
+      description:
+        "This portfolio website is designed with React.js and styled using Tailwind CSS, ensuring a fast, clean, and responsive user experience. It highlights personal skills, projects, and achievements with an intuitive interface, making it easy for visitors, clients, and recruiters to explore professional work.",
+      image: portfolio,
+      tags: ["Reactjs", "TailwindCSS"],
+      github: "https://github.com/Sandaru03/Portfolio-Website.git",
+      webapp: "https://sandarudilshan.com/"
+    }
+  ];

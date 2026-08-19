@@ -67,13 +67,11 @@ export const About = () => {
             transition={{ delay: 0.8, duration: 1 }}
             viewport={{ once: true }}
           >
-            I craft high-performance web applications with a focus on seamless
-            user experiences. Specializing in the <span className="text-white font-semibold">MERN stack</span>, I bridge the gap between
-            powerful backend logic and elegant frontend design.
+            I build scalable backend architectures, high-performance web applications, and data-driven systems. Skilled across modern frameworks, optimized databases, and data pipelines, I bridge the gap between robust engineering and intuitive user experiences.
           </motion.p>
 
           <motion.a
-            href="https://drive.google.com/file/d/1B2cVfVsV1ugQIe4I60hpoyzqWaUzD9AA/view?usp=drive_link"
+            href="https://drive.google.com/file/d/1ykQv1jxqp69IVlEtMLJcm32DcUhtcCkY/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
             className="relative inline-flex items-center justify-center px-8 py-4 text-lg font-bold text-white transition-all duration-200 bg-purple-600 font-pj rounded-xl focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-900"
@@ -82,7 +80,7 @@ export const About = () => {
             whileTap={{ scale: 0.95 }}
           >
               <div className="absolute -inset-3 rounded-xl bg-gradient-to-r from-yellow-300 via-purple-500 to-pink-500 opacity-30 blur-lg transition duration-200 group-hover:opacity-100 group-hover:duration-200 animate-tilt"></div>
-              <span className="relative">Download CV</span>
+              <span className="relative">Download Resume</span>
               <svg className="relative w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"></path></svg>
           </motion.a>
         </motion.div>
